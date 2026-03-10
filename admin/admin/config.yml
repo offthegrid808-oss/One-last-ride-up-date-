@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: offthegrid808-oss/One-last-ride-up-date-
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Homepage"
+        name: "home"
+        file: "index.html"
+        fields:
+          - { label: "Page Content", name: "body", widget: "markdown" }
